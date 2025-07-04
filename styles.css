@@ -1,0 +1,5 @@
+.hero_section {
+    display: flex;
+    background-color: rgb(238, 17, 164);
+    color: white;
+}
