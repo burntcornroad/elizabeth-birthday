@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-.hero_section {
-    display: flex;
-    background-color: rgb(238, 17, 164);
-    color: white;
-=======
 body {
   display: flex;
 }
@@ -47,5 +41,4 @@ body {
     height: auto;
     width: 600px;
     border-radius: 500px;
->>>>>>> ed21c80 (Finish edits on hero section)
 }
