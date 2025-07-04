@@ -7,6 +7,8 @@ body {
     background-color: rgb(238, 17, 164);
     color: white;
     padding: 100px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 .silly {
@@ -18,27 +20,106 @@ body {
     flex-direction: column;
 }
 
+.quote-pic {
+    display: flex;
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    height: auto;
+    width: 600px;
+    border-end-start-radius: 200px;
+    border-start-end-radius: 200px;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.1, 3{
+    display: flex;
+    align-items: center;
+}
+
 .header-one {
     color: red;
+    width: 300px;
+  text-align: center;
+  padding-top: 50px;
+  display: flex;
+  
+}
+
+.para-one {
+    color: orange;
+  width: 200px;
+  text-align: center;
+  overflow-wrap: break-word;
+  display: flex;
 }
 
 .header-two {
     color: rgb(24, 183, 247);
+    width: 200px;
+    text-align: right;
+    display: flex;
+}
+
+.para-two {
+    color: rgb(114, 179, 240);
+    width: 200px;
+  text-align: right;
+  overflow-wrap: break-word;
+  display: flex;
 }
 
 .header-three {
     color: rgb(13, 211, 13);
+        width: 200px;
+    text-align: center;
+    display: flex;
+}
+
+.para-three {
+    color: greenyellow;
+    width: 200px;
+  text-align: center;
+  overflow-wrap: break-word;
+  display: flex;
 }
 
 .header-four {
     color: rgb(152, 5, 250);
+        width: 200px;
+    text-align: center;
+    display: flex;
 }
 
-.quote-pic {
-    padding-top: 20px;
+.para-four {
+    color: rgb(253, 137, 253);
+    width: 200px;
+  text-align: center;
+  overflow-wrap: break-word;
+  display: flex;
+}
+
+
+.liz-description {
+    background-color: rgb(248, 245, 48);
+    color: white;
+    text-shadow: 0.5px 1px black;
+}
+
+.liz {
     margin: auto;
-    display: flex;
     height: auto;
-    width: 500px;
-    border-radius: 500px;
+    width: 200px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.description-group {
+    width: 300px;
 }
