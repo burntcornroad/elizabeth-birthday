@@ -23,9 +23,27 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.header-one {
+    color: red;
+}
+
+.header-two {
+    color: rgb(24, 183, 247);
+}
+
+.header-three {
+    color: rgb(13, 211, 13);
+}
+
+.header-four {
+    color: rgb(152, 5, 250);
+}
+
 .quote-pic {
+    padding-top: 20px;
+    margin: auto;
     display: flex;
-    justify-content: center;
     height: auto;
     width: 600px;
     border-radius: 500px;
