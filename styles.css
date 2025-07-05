@@ -161,6 +161,7 @@ body {
 
 
 .testimonials {
+    padding-top: 100px;
     color: rgb(181, 127, 252);
     display: flex;
     margin: auto;
@@ -169,10 +170,12 @@ body {
     flex-direction: column;
     gap: 50px;
     max-width: 500px; 
+    
 }
 
 .gift-section {
     background-image: linear-gradient(to bottom right, rgb(124, 235, 243), white);
+    color: white;
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -242,4 +245,5 @@ body {
 
 .end-section {
     color: rgb(96, 240, 1);
+    padding: 50px;
 }
