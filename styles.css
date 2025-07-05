@@ -109,17 +109,48 @@ body {
 .liz-description {
     background-color: rgb(248, 245, 48);
     color: white;
-    text-shadow: 0.5px 1px black;
+    text-shadow: 1px 2px 1px rgb(247, 9, 215);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
 }
 
 .liz {
-    margin: auto;
+    margin-top: 150px;
     height: auto;
-    width: 200px;
-    border-radius: 100px;
-    padding: 10px;
+ --c: rgb(225, 93, 230);
+  width: 300px;
+  border-image: radial-gradient(var(--c) 69%,#0000 70%) 84.5%/50%;
+  clip-path: polygon(-42% 0,50% 91%, 142% 0);
+    padding: 45px;
+    object-fit: cover;
+    border-start-start-radius: 270px;
+    border-start-end-radius: 250px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .description-group {
-    width: 300px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.testimonials {
+    color: rgb(181, 127, 252);
+    display: flex;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 500px; 
+}
+
+.gift-section {
+        background-image: linear-gradient(to bottom right, rgb(124, 235, 243), white);
 }
