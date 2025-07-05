@@ -18,29 +18,27 @@ body {
 .intro-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
 
 .quote-pic {
     display: flex;
+    justify-content: center;
     padding-top: 50px;
+    flex: 1;
     margin: auto;
-    display: flex;
-    height: auto;
     width: 600px;
     border-end-start-radius: 200px;
     border-start-end-radius: 200px;
 }
 
-
 .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.1, 3{
-    display: flex;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
 }
 
 .header-one {
@@ -106,6 +104,20 @@ body {
 }
 
 
+.first, .third {
+    display: flex;
+    flex-flow: column wrap;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.second, .fourth {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    text-align: center;
+}
+
 .liz-description {
     background-color: rgb(248, 245, 48);
     color: white;
@@ -140,6 +152,7 @@ body {
     margin: 20px;
 }
 
+
 .testimonials {
     color: rgb(181, 127, 252);
     display: flex;
@@ -155,7 +168,6 @@ body {
     background-image: linear-gradient(to bottom right, rgb(124, 235, 243), white);
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
     flex-flow: row wrap;
     padding: 0;
     margin: 0;
@@ -165,17 +177,58 @@ body {
 
 .gift {
     background: url("https://clipart-library.com/img/1397751.png");
+    background-size: contain;
     height: 300px;
     width: 300px;
-    object-fit: contain;
     border-radius: 10px;
     border: 5px solid white;
     margin-bottom: 80px;
 }
 
-.gift:hover {
-    background-image: url("https://www.developgoodhabits.com/wp-content/uploads/2023/10/listen_to_the_mighty_one.jpg");
-    object-fit: contain;
-    max-width: 100%;
+.gift.one:hover {
+    background-image: url(IMG_0823.jpg);
+    max-width: 300px;
     max-height: 100%;
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+.gift.two:hover {
+    background-image: url(IMG_5351.jpg);
+    max-width: 300px;
+    max-height: 100%;
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+.gift.three:hover {
+    background-image: url(pockets.jpeg);
+    max-width: 300px;
+    max-height: 100%;
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+.gift.four:hover {
+    background-image: url(IMG_0129.jpg);
+    max-width: 300px;
+    max-height: 100%;
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+.gift.five:hover {
+    background-image: url(sweet.jpeg);
+    max-width: 300px;
+    max-height: 100%;
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+.gift.six:hover {
+    background-image: url(IMG_8424.jpg);
+    max-width: 300px;
+    max-height: 100%;
+    background-size: fill;
+    background-repeat: no-repeat;
 }
