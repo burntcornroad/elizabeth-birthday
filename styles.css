@@ -56,19 +56,20 @@ body {
   text-align: center;
   overflow-wrap: break-word;
   display: flex;
+  margin-left: 45px;
 }
 
 .header-two {
     color: rgb(24, 183, 247);
     width: 200px;
-    text-align: right;
+    text-align: center;
     display: flex;
 }
 
 .para-two {
     color: rgb(114, 179, 240);
     width: 200px;
-  text-align: right;
+  text-align: center;
   overflow-wrap: break-word;
   display: flex;
 }
@@ -109,6 +110,7 @@ body {
     flex-flow: column wrap;
   align-items: flex-start;
   text-align: center;
+  margin-left: 500px;
 }
 
 .second, .fourth {
@@ -116,6 +118,11 @@ body {
     flex-flow: column wrap;
     align-items: flex-end;
     text-align: center;
+    margin-right: 500px;
+}
+
+.intro.fourth {
+    margin-bottom: 50px;
 }
 
 .liz-description {
@@ -231,4 +238,8 @@ body {
     max-height: 100%;
     background-size: fill;
     background-repeat: no-repeat;
+}
+
+.end-section {
+    color: rgb(96, 240, 1);
 }
